@@ -56,3 +56,8 @@ typings/
 
 # dotenv environment variables file
 .env
+
+/.sass-cache/
+built.css
+*.swo
+*.swp

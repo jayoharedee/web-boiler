@@ -13,4 +13,4 @@ before_script:
   - npm install node-sass -g
 script:
   - npm rebuild node-sass
-  - node-sass public/main.scss public/css/style.css
+  - node-sass public/sass/main.scss public/css/style.css

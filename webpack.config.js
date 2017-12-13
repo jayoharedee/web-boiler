@@ -1,6 +1,5 @@
 const path = require("path");
 const webpack = require("webpack");
-const locale = require("i18n!./colors.json");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require("clean-webpack-plugin");

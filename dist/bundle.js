@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
@@ -65,10 +65,18 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _style = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./public/css/style.cass\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _style2 = _interopRequireDefault(_style);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 console.log('webpack is working');
-
 
 /***/ })
 /******/ ]);

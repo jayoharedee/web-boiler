@@ -1,0 +1,6 @@
+parser: sugarss
+map: false
+from: "/components/*/*.scss"
+to: "/dist/*/*.css"
+plugins:
+  postcss-plugin: {}
